@@ -6,11 +6,11 @@ function App() {
 <div className="grid-container">
   <header className="row">
     <div>
-      <a className="brand" href="index.html">Silk Road Home</a>
+      <a className="brand" href="/">Silk Road Home</a>
     </div>
     <div>
-      <a href="cart.html">Cart</a>
-      <a href="signin.html">Sign In</a>
+      <a href="/cart">Cart</a>
+      <a href="/signin">Sign In</a>
     </div>
   </header>
   <main>
