@@ -148,12 +148,19 @@ align-items: flex-start;
 .col-2{
   flex: 2 1 50rem;
 }
+.min-30 {
+  min-width: 30 rem;
+}
 
 /* Image */
 
 img {
   border-radius: 0.5rem;
 
+}
+img.small {
+  max-width: 5rem;
+  width: 100%;
 }
 img.medium {
   max-width: 29rem;
