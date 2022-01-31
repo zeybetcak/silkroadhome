@@ -4,13 +4,10 @@ import data from './data.js';
 import userRouter from './routers/userRouter.js';
 
 const app = express();
-mongoose.connect(process.env.MONGODB_URL || 'mongodb://localhost/silkroadhome', { useNewUrlParser:true,
-useUnifiedTopology:true,
-useCreateIndex:true}).then(()=>{
-console.log(`successfully connected`);
-}).catch(( err )=>{
-console.log(`not connected`);
-})
+mongoose.connect(process.env.MONGODB_URL || 'mongodb://localhost/silkroadhome', {
+});
+
+
 
 
 app.get('/api/products/:id', (req, res) => {
