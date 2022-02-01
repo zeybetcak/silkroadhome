@@ -17,7 +17,6 @@ const data = {
   ],
   products: [
     {
-      _id: '1',
       name: '100% Linen Turkish Towel',
       category: 'Towels',
       image: '/images/p1.jpg',
@@ -29,7 +28,6 @@ const data = {
       description: 'high quality product',
     },
     {
-      _id: '2',
       name: '100% Linen Turkish Hand Towel',
       category: 'Towels',
       image: '/images/p2.jpg',
@@ -41,7 +39,6 @@ const data = {
       description: 'high quality product',
     },
     {
-      _id: '3',
       name: '100% Linen Turkish Pajama Set',
       category: 'Clothing',
       image: '/images/p3.jpg',
@@ -53,7 +50,6 @@ const data = {
       description: 'high quality product',
     },
     {
-      _id: '4',
       name: '100% Cotton Turkish Bathrobe',
       category: 'Clothing',
       image: '/images/p4.jpg',
@@ -65,7 +61,6 @@ const data = {
       description: 'high quality product',
     },
     {
-      _id: '5',
       name: 'Turkish Takunya Bath Sandals',
       category: 'Shoes',
       image: '/images/p5.jpg',
@@ -77,6 +72,6 @@ const data = {
       description: 'high quality product',
     },
   ],
-};
+}; 
 
 export default data;
